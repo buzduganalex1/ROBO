@@ -21,7 +21,8 @@ namespace Robo
 
             foreach (var king in kings)
             {
-                var node = graph.CreateUriNode(new Uri(king.Uri));
+                var kingUri = new Uri(king.Uri);
+                var node = graph.CreateUriNode(kingUri);
                 var kingNode = graph.GetUriNode(new Uri(RoboEnum.GetRoboUri("King")));
                 var cityNode = graph.GetUriNode(new Uri(RoboEnum.GetRoboUri("City")));
                 var typeNode = graph.GetUriNode(new Uri("http://www.w3.org/1999/02/22-rdf-syntax-ns#type"));
@@ -40,7 +41,7 @@ namespace Robo
                     var ruledSuccessorTriple = new Triple(node, successor, graph.CreateUriNode(new Uri(king.SuccessorUri)));
                     graph.Assert(ruledSuccessorTriple);
                 }
-            
+
                 graph.Assert(triple);
                 graph.Assert(ruledFromTriple);
                 graph.Assert(ruledToTriple);

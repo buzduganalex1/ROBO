@@ -10,13 +10,4 @@ This ontology is based on the book I'm currently reading called __The History of
 
 [Susan Bauer]: https://susanwisebauer.com/
 
-## Classes
-
-- King (Nebuchadnezzar II, Solomon, David, Necho II)
-- City (Israel, Babylon, Assur)
-- Empire (Asyria, Sumeria, Egypt)
-
-## Properties
-
-- RuledFrom
-- RuledTo
+More details about the ontology can be found in RoboOwlDoc
