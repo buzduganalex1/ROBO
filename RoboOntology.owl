@@ -1,15 +1,1250 @@
-<?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/ontology/robo#"
-     xml:base="http://www.semanticweb.org/ontology/robo"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/ontology/robo"/>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rdf:RDF [
+	<!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	<!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+	<!ENTITY xsd 'http://www.w3.org/2001/XMLSchema#'>
+	<!ENTITY xml 'http://www.w3.org/XML/1998/namespace'>
+	<!ENTITY owl 'http://www.w3.org/2002/07/owl#'>
+	<!ENTITY robo 'http://www.semanticweb.org/ontology/robo#'>
+	<!ENTITY dc 'http://purl.org/dc/elements/1.1/'>
+]>
+<rdf:RDF xml:base="http://www.semanticweb.org/ontology/robo" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:xml="http://www.w3.org/XML/1998/namespace" xmlns="http://www.semanticweb.org/ontology/robo#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:robo="http://www.semanticweb.org/ontology/robo#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <owl:Ontology rdf:about="http://www.semanticweb.org/ontology/robo">
+    <rdf:type rdf:resource="&owl;Ontology" />
+  </owl:Ontology>
+  <robo:King rdf:about="&robo;%C5%A0ipta%E2%80%99ulzi">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Agum%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;%E1%B8%AAurbazum">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;%C5%A0ipta%E2%80%99ulzi" />
+  </robo:King>
+  <robo:King rdf:about="&robo;5%20kings">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>811</robo:RuledFrom>
+    <robo:RuledTo>800</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ninurta-apla-X" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Abi-Ratta%C5%A1">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ka%C5%A1tilia%C5%A1u%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Abi-eshuh%20or%20Abieshu">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1648</robo:RuledFrom>
+    <robo:RuledTo>1620</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ammi-ditana" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Abisare">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1841</robo:RuledFrom>
+    <robo:RuledTo>1830</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sumuel" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Adad-apla-iddina">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1069</robo:RuledFrom>
+    <robo:RuledTo>1046</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-ahhe-eriba" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Adad-shuma-iddina">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1222</robo:RuledFrom>
+    <robo:RuledTo>1217</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Adad-shuma-usur" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Adad-shuma-usur">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1216</robo:RuledFrom>
+    <robo:RuledTo>1187</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Meli-Shipak%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Agum%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ka%C5%A1tilia%C5%A1u%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Agum%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Burnaburiash%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Agum%20III">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Karaindash" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Akurduana">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Melamkurkurra" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Alexander%20III%20Balas">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>150</robo:RuledFrom>
+    <robo:RuledTo>145</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Demetrius%20II%20Nicator" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Alexander%20III%20the%20Great">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>330</robo:RuledFrom>
+    <robo:RuledTo>323</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Philip%20III%20Arrhideus" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Alexander%20IV">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>317</robo:RuledFrom>
+    <robo:RuledTo>309</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Seleucus%20I%20Nicator" />
+  </robo:King>
+  <owl:NamedIndividual rdf:about="&robo;Amel-Marduk">
+    <robo:RuledFrom rdf:datatype="&xsd;int">562</robo:RuledFrom>
+    <robo:RuledTo rdf:datatype="&xsd;int">560</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nergal-shar-usur" />
+    <robo:homeCity rdf:resource="&robo;Babylon" />
+    <rdf:type rdf:resource="&robo;King" />
+  </owl:NamedIndividual>
+  <robo:King rdf:about="&robo;Amel-Marduk%20(Evil-Merodach)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>562</robo:RuledFrom>
+    <robo:RuledTo>560</robo:RuledTo>
+    <robo:Successor rdf:resource="http://www.semanticweb.org/ontology/robo#Nergal-shar-usur%20(Nergal-sharezer/Neriglissar)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ammi-ditana">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1620</robo:RuledFrom>
+    <robo:RuledTo>1583</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ammi-saduqa%20or%20Ammisaduqa" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ammi-saduqa%20or%20Ammisaduqa">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1582</robo:RuledFrom>
+    <robo:RuledTo>1562</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Samsu-Ditana" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Antiochus%20I%20Soter">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Antiochus%20II%20Theos" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Antiochus%20II%20Theos">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>261</robo:RuledFrom>
+    <robo:RuledTo>246</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Seleucus%20II%20Callinicus" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Antiochus%20III%20the%20Great">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>223</robo:RuledFrom>
+    <robo:RuledTo>187</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Seleucus%20IV%20Philopator" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Antiochus%20IV%20Epiphanes">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>175</robo:RuledFrom>
+    <robo:RuledTo>164</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Antiochus%20V%20Eupator" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Antiochus%20V%20Eupator">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>164</robo:RuledFrom>
+    <robo:RuledTo>162</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Demetrius%20I%20Soter" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Antiochus%20VI%20Dionysus">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>145</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+  </robo:King>
+  <robo:King rdf:about="&robo;Artaxerxes%20I%20Longimanus">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>465</robo:RuledFrom>
+    <robo:RuledTo>424</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Xerxes%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Artaxerxes%20II%20Mnemon">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>404</robo:RuledFrom>
+    <robo:RuledTo>359</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Artaxerxes%20III%20Ochus" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Artaxerxes%20III%20Ochus">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>358</robo:RuledFrom>
+    <robo:RuledTo>338</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Artaxerxes%20IV%20Arses" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Artaxerxes%20IV%20Arses">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>338</robo:RuledFrom>
+    <robo:RuledTo>336</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Darius%20III%20Codomannus" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ashur-ahha-iddina%20(Esarhaddon)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>681</robo:RuledFrom>
+    <robo:RuledTo>669</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Shamash-shum-ukin" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ashur-nadin-shumi">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>700</robo:RuledFrom>
+    <robo:RuledTo>694</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nergal-ushezib" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Assyrian%20Sack%20of%20Babylon%20by%20Sennacherib">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>689</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sin-ahhe-eriba%20(Sennacherib)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ayadaragalama">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Akurduana" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Baba-aha-iddina">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>813</robo:RuledFrom>
+    <robo:RuledTo>811</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;5%20kings" />
+  </robo:King>
+  <owl:NamedIndividual rdf:about="&robo;Babylon">
+    <robo:CapitalOf rdf:resource="&robo;Neo-Babylonian" />
+    <rdf:type rdf:resource="&robo;City" />
+  </owl:NamedIndividual>
+  <robo:King rdf:about="&robo;Bardiya">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>522</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Darius%20I%20the%20Great" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Bel-ibni">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>703</robo:RuledFrom>
+    <robo:RuledTo>700</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ashur-nadin-shumi" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Burnaburiash%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kashtiliash%20III" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Burnaburiash%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1359</robo:RuledFrom>
+    <robo:RuledTo>1333</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kara-hardash" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Cambyses%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>530</robo:RuledFrom>
+    <robo:RuledTo>522</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Bardiya" />
+  </robo:King>
+  <owl:AnnotationProperty rdf:about="&robo;CapitalOf">
+    <rdf:type rdf:resource="&owl;AnnotationProperty" />
+  </owl:AnnotationProperty>
+  <owl:Class rdf:about="&robo;City">
+    <robo:CapitalOf rdf:resource="&robo;Empire" />
+  </owl:Class>
+  <robo:King rdf:about="&robo;Cyrus%20the%20Great">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Cambyses%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Damqi-ilishu">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ishkibal" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Darius%20I%20the%20Great">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>521</robo:RuledFrom>
+    <robo:RuledTo>486</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Xerxes%20I%20the%20Great" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Darius%20II%20Nothus">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>423</robo:RuledFrom>
+    <robo:RuledTo>405</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Artaxerxes%20II%20Mnemon" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Darius%20III%20Codomannus">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>336</robo:RuledFrom>
+    <robo:RuledTo>330</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Alexander%20III%20the%20Great" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Demetrius%20I%20Soter">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>161</robo:RuledFrom>
+    <robo:RuledTo>150</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Alexander%20III%20Balas" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Demetrius%20II%20Nicator">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>145</robo:RuledFrom>
+    <robo:RuledTo>141</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Antiochus%20VI%20Dionysus" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ea-gamil">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1460</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ganda%C5%A1" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ea-mukin-zeri">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1008</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kashshu-nadin-ahi" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Emisum">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1940</robo:RuledFrom>
+    <robo:RuledTo>1912</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Samium" />
+  </robo:King>
+  <owl:Class rdf:about="&robo;Empire">
+    <rdf:type rdf:resource="&owl;Class" />
+  </owl:Class>
+  <robo:King rdf:about="&robo;Enlil-nadin-ahi">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1157</robo:RuledFrom>
+    <robo:RuledTo>1155</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-kabit-ahheshu" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Enlil-nadin-apli">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1103</robo:RuledFrom>
+    <robo:RuledTo>1100</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-nadin-ahhe" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Enlil-nadin-shumi">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1224</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kadashman-Harbe%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Eriba-Marduk">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>769</robo:RuledFrom>
+    <robo:RuledTo>761</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-shuma-ishkun" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Eulmash-shakin-shumi">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1004</robo:RuledFrom>
+    <robo:RuledTo>987</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ninurta-kudurri-usur%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;From%20this%20point%20on">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-nasir%20(Nabonassar)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ganda%C5%A1">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Agum%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Gulkishar">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Peshgaldaramesh" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Gungunum">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1868</robo:RuledFrom>
+    <robo:RuledTo>1841</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Abisare" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Hammurabi%20of%20Babylon">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1699</robo:RuledFrom>
+    <robo:RuledTo>1686</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Samsu-iluna%20of%20Babylon" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ilum-ma-ili">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1732</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Hammurabi%20of%20Babylon" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ishkibal">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Shushushi" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Itti-Marduk-balatu">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1140</robo:RuledFrom>
+    <robo:RuledTo>1132</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ninurta-nadin-shumi" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ka%C5%A1tilia%C5%A1u%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Abi-Ratta%C5%A1" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ka%C5%A1tilia%C5%A1u%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ur-ziguruma%C5%A1" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kadashman-Enlil%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1374</robo:RuledFrom>
+    <robo:RuledTo>1360</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Burnaburiash%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kadashman-Enlil%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1263</robo:RuledFrom>
+    <robo:RuledTo>1255</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kudur-Enlil" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kadashman-Harbe%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1223</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Adad-shuma-iddina" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kadashman-Turgu">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1281</robo:RuledFrom>
+    <robo:RuledTo>1264</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kadashman-Enlil%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kadashman-harbe%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kurigalzu%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kandalanu">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>648</robo:RuledFrom>
+    <robo:RuledTo>627</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sin-shumu-lishir" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kara-hardash">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1333</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nazi-Bugash%20or%20Shuzigash" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Karaindash">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kadashman-harbe%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kashshu-nadin-ahi">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1008</robo:RuledFrom>
+    <robo:RuledTo>1004</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Eulmash-shakin-shumi" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kashtiliash%20III">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ulamburiash" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kashtiliashu%20IV">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1232</robo:RuledFrom>
+    <robo:RuledTo>1225</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Enlil-nadin-shumi" />
+  </robo:King>
+  <owl:Class rdf:about="&robo;King">
+    <robo:RuledFrom rdf:datatype="&xsd;int"></robo:RuledFrom>
+    <robo:RuledTo rdf:datatype="&xsd;int"></robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;King" />
+    <robo:homeCity rdf:resource="&robo;City" />
+  </owl:Class>
+  <robo:King rdf:about="&robo;Kudur-Enlil">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1254</robo:RuledFrom>
+    <robo:RuledTo>1246</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Shagarakti-Shuriash" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kurigalzu%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kadashman-Enlil%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Kurigalzu%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1332</robo:RuledFrom>
+    <robo:RuledTo>1308</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nazi-Maruttash" />
+  </robo:King>
+  <owl:NamedIndividual rdf:about="&robo;Labashi-Marduk">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>556</robo:RuledFrom>
+    <robo:RuledFrom rdf:datatype="&xsd;int">556</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:RuledTo rdf:datatype="&xsd;int">556</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabonidus" />
+    <robo:Successor rdf:resource="&robo;Nabu-na&apos;id%20(Nabonidus)" />
+    <rdf:type rdf:resource="&robo;King" />
+  </owl:NamedIndividual>
+  <robo:King rdf:about="&robo;Mar-biti-ahhe-iddina">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>943</robo:RuledFrom>
+    <robo:RuledTo>920</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Shamash-mudammiq" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Mar-biti-apla-usur">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>985</robo:RuledFrom>
+    <robo:RuledTo>979</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-mukin-apli" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-ahhe-eriba">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1046</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-zer-X" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-apla-iddina%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1171</robo:RuledFrom>
+    <robo:RuledTo>1159</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Zababa-shuma-iddin" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-apla-iddina%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>703</robo:RuledFrom>
+    <robo:RuledFrom>722</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:RuledTo>710</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Bel-ibni" />
+    <robo:Successor rdf:resource="&robo;Sharrukin%20II%20(Sargon%20II)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-apla-usur">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>780</robo:RuledFrom>
+    <robo:RuledTo>769</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Eriba-Marduk" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-balassu-iqbi">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>819</robo:RuledFrom>
+    <robo:RuledTo>813</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Baba-aha-iddina" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-bel-zeri">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>790</robo:RuledFrom>
+    <robo:RuledTo>780</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-apla-usur" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-kabit-ahheshu">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1155</robo:RuledFrom>
+    <robo:RuledTo>1140</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Itti-Marduk-balatu" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-nadin-ahhe">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1100</robo:RuledFrom>
+    <robo:RuledTo>1082</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-shapik-zeri" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-shapik-zeri">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1082</robo:RuledFrom>
+    <robo:RuledTo>1069</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Adad-apla-iddina" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-zakir-shumi%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>855</robo:RuledFrom>
+    <robo:RuledTo>819</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-balassu-iqbi" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-zakir-shumi%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>703</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-apla-iddina%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Marduk-zer-X">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1046</robo:RuledFrom>
+    <robo:RuledTo>1033</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-shum-libur" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Melamkurkurra">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ea-gamil" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Meli-Shipak%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1186</robo:RuledFrom>
+    <robo:RuledTo>1172</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-apla-iddina%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Mushezib-Marduk">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>693</robo:RuledFrom>
+    <robo:RuledTo>689</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Assyrian%20Sack%20of%20Babylon%20by%20Sennacherib" />
+  </robo:King>
+  <owl:NamedIndividual rdf:about="&robo;Nabonidus">
+    <robo:RuledFrom rdf:datatype="&xsd;int">556</robo:RuledFrom>
+    <robo:RuledTo rdf:datatype="&xsd;int">539</robo:RuledTo>
+    <rdf:type rdf:resource="&robo;King" />
+  </owl:NamedIndividual>
+  <robo:King rdf:about="&robo;Nabu-apla-iddina">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>888</robo:RuledFrom>
+    <robo:RuledTo>855</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-zakir-shumi%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-apla-usur%20(Nabopolassar)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>626</robo:RuledFrom>
+    <robo:RuledTo>605</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-kudurri-usur%20(Nebuchadnezzar%20II)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-kudurri-usur%20(Nebuchadnezzar%20I)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1126</robo:RuledFrom>
+    <robo:RuledTo>1103</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Enlil-nadin-apli" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-kudurri-usur%20(Nebuchadnezzar%20II)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>605</robo:RuledFrom>
+    <robo:RuledTo>562</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Amel-Marduk%20(Evil-Merodach)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-mukin-apli">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>979</robo:RuledFrom>
+    <robo:RuledTo>943</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ninurta-kudurri-usur%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-mukin-zeri">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>732</robo:RuledFrom>
+    <robo:RuledTo>729</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Tiglath-Pileser%20III" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-na&apos;id%20(Nabonidus)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>556</robo:RuledFrom>
+    <robo:RuledTo>539</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Cyrus%20the%20Great" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-nadin-zeri">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>734</robo:RuledFrom>
+    <robo:RuledTo>732</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-suma-ukin%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-nasir%20(Nabonassar)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>748</robo:RuledFrom>
+    <robo:RuledTo>734</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-nadin-zeri" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-shum-libur">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1033</robo:RuledFrom>
+    <robo:RuledTo>1025</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Simbar-shipak" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-shuma-ishkun">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>761</robo:RuledFrom>
+    <robo:RuledTo>748</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;From%20this%20point%20on" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-shuma-ukin%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>900</robo:RuledFrom>
+    <robo:RuledTo>888</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-apla-iddina" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nabu-suma-ukin%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>732</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-mukin-zeri" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Naplanum">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1961</robo:RuledFrom>
+    <robo:RuledTo>1940</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Emisum" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nazi-Bugash%20or%20Shuzigash">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1333</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kurigalzu%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nazi-Maruttash">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1307</robo:RuledFrom>
+    <robo:RuledTo>1282</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kadashman-Turgu" />
+  </robo:King>
+  <owl:NamedIndividual rdf:about="&robo;Nebuchadnezzar_II">
+    <robo:RuledFrom rdf:datatype="&xsd;int">605</robo:RuledFrom>
+    <robo:RuledTo rdf:datatype="&xsd;int">562</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Amel-Marduk" />
+    <robo:homeCity rdf:resource="&robo;Babylon" />
+    <rdf:type rdf:resource="&robo;King" />
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="&robo;Neo-Babylonian">
+    <rdf:type rdf:resource="&robo;Empire" />
+  </owl:NamedIndividual>
+  <owl:NamedIndividual rdf:about="&robo;Nergal-shar-usur">
+    <robo:RuledFrom rdf:datatype="&xsd;int">560</robo:RuledFrom>
+    <robo:RuledTo rdf:datatype="&xsd;int">556</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Labashi-Marduk" />
+    <rdf:type rdf:resource="&robo;King" />
+  </owl:NamedIndividual>
+  <robo:King rdf:about="http://www.semanticweb.org/ontology/robo#Nergal-shar-usur%20(Nergal-sharezer/Neriglissar)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>560</robo:RuledFrom>
+    <robo:RuledTo>556</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Labashi-Marduk" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nergal-ushezib">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>694</robo:RuledFrom>
+    <robo:RuledTo>693</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Mushezib-Marduk" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ninurta-apla-X">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>800</robo:RuledFrom>
+    <robo:RuledTo>790</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-bel-zeri" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ninurta-kudurri-usur%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>987</robo:RuledFrom>
+    <robo:RuledTo>985</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Shirikti-shuqamuna" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ninurta-kudurri-usur%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>943</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Mar-biti-ahhe-iddina" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ninurta-nadin-shumi">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1132</robo:RuledFrom>
+    <robo:RuledTo>1126</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-kudurri-usur%20(Nebuchadnezzar%20I)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Nur-Adad">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1801</robo:RuledFrom>
+    <robo:RuledTo>1785</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sin-Iddinam" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Peshgaldaramesh">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ayadaragalama" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Philip%20III%20Arrhideus">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Alexander%20IV" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Rim-Sin%20I">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1758</robo:RuledFrom>
+    <robo:RuledTo>1699</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ilum-ma-ili" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Rim-Sin%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1678</robo:RuledFrom>
+    <robo:RuledTo>1674</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Abi-eshuh%20or%20Abieshu" />
+  </robo:King>
+  <owl:AnnotationProperty rdf:about="&robo;RuledFrom">
+    <rdf:type rdf:resource="&owl;AnnotationProperty" />
+  </owl:AnnotationProperty>
+  <owl:AnnotationProperty rdf:about="&robo;RuledTo">
+    <rdf:type rdf:resource="&owl;AnnotationProperty" />
+  </owl:AnnotationProperty>
+  <robo:King rdf:about="&robo;Samium">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1912</robo:RuledFrom>
+    <robo:RuledTo>1877</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Zabaia" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Samsu-Ditana">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1562</robo:RuledFrom>
+    <robo:RuledTo>1531</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Damqi-ilishu" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Samsu-iluna%20of%20Babylon">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1686</robo:RuledFrom>
+    <robo:RuledTo>1678</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Rim-Sin%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Seleucus%20I%20Nicator">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Antiochus%20I%20Soter" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Seleucus%20II%20Callinicus">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>246</robo:RuledFrom>
+    <robo:RuledTo>225</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Seleucus%20III%20Ceraunus%20(or%20Soter)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Seleucus%20III%20Ceraunus%20(or%20Soter)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>225</robo:RuledFrom>
+    <robo:RuledTo>223</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Antiochus%20III%20the%20Great" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Seleucus%20IV%20Philopator">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>187</robo:RuledFrom>
+    <robo:RuledTo>175</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Antiochus%20IV%20Epiphanes" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Shagarakti-Shuriash">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1245</robo:RuledFrom>
+    <robo:RuledTo>1233</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kashtiliashu%20IV" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Shalmaneser%20V">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>727</robo:RuledFrom>
+    <robo:RuledTo>722</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Marduk-apla-iddina%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Shamash-mudammiq">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>920</robo:RuledFrom>
+    <robo:RuledTo>900</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-shuma-ukin%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Shamash-shum-ukin">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>668</robo:RuledFrom>
+    <robo:RuledTo>648</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Kandalanu" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sharrukin%20II%20(Sargon%20II)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>710</robo:RuledFrom>
+    <robo:RuledTo>705</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sin-ahhe-eriba%20(Sennacherib)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Shirikti-shuqamuna">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>985</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Mar-biti-apla-usur" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Shushushi">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Gulkishar" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Silli-Adad">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1771</robo:RuledFrom>
+    <robo:RuledTo>1770</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Warad-Sin" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Simbar-shipak">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1025</robo:RuledFrom>
+    <robo:RuledTo>1008</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ea-mukin-zeri" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sin-Eribam">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1778</robo:RuledFrom>
+    <robo:RuledTo>1776</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sin-Iqisham" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sin-Iddinam">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1785</robo:RuledFrom>
+    <robo:RuledTo>1778</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sin-Eribam" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sin-Iqisham">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1776</robo:RuledFrom>
+    <robo:RuledTo>1771</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Silli-Adad" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sin-ahhe-eriba%20(Sennacherib)">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>689</robo:RuledFrom>
+    <robo:RuledFrom>705</robo:RuledFrom>
+    <robo:RuledTo>681</robo:RuledTo>
+    <robo:RuledTo>703</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Ashur-ahha-iddina%20(Esarhaddon)" />
+    <robo:Successor rdf:resource="&robo;Marduk-zakir-shumi%20II" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sin-shumu-lishir">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>626</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sinsharishkun" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sinsharishkun">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>626</robo:RuledFrom>
+    <robo:RuledTo>620</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nabu-apla-usur%20(Nabopolassar)" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sogdianus">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>424</robo:RuledFrom>
+    <robo:RuledTo>423</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Darius%20II%20Nothus" />
+  </robo:King>
+  <owl:AnnotationProperty rdf:about="&robo;Successor">
+    <rdf:type rdf:resource="&owl;AnnotationProperty" />
+  </owl:AnnotationProperty>
+  <robo:King rdf:about="&robo;Sumu-abum%20or%20Su-abu">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1830</robo:RuledFrom>
+    <robo:RuledTo>1817</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sumu-la-El" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sumu-la-El">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1817</robo:RuledFrom>
+    <robo:RuledTo>1781</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Nur-Adad" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Sumuel">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1830</robo:RuledFrom>
+    <robo:RuledTo>1801</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sumu-abum%20or%20Su-abu" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Tiglath-Pileser%20III">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>729</robo:RuledFrom>
+    <robo:RuledTo>727</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Shalmaneser%20V" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ulamburiash">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Agum%20III" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Ur-ziguruma%C5%A1">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>0</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;%E1%B8%AAurbazum" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Warad-Sin">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1770</robo:RuledFrom>
+    <robo:RuledTo>1758</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Rim-Sin%20I" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Xerxes%20I%20the%20Great">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>485</robo:RuledFrom>
+    <robo:RuledTo>465</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Artaxerxes%20I%20Longimanus" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Xerxes%20II">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>424</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Sogdianus" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Zababa-shuma-iddin">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1158</robo:RuledFrom>
+    <robo:RuledTo>0</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Enlil-nadin-ahi" />
+  </robo:King>
+  <robo:King rdf:about="&robo;Zabaia">
+    <robo:City rdf:resource="&robo;Babylon" />
+    <robo:RuledFrom>1877</robo:RuledFrom>
+    <robo:RuledTo>1868</robo:RuledTo>
+    <robo:Successor rdf:resource="&robo;Gungunum" />
+  </robo:King>
+  <owl:AnnotationProperty rdf:about="&robo;homeCity">
+    <rdf:type rdf:resource="&owl;AnnotationProperty" />
+  </owl:AnnotationProperty>
+  <owl:Ontology rdf:about="&rdf;">
+    <dc:description>This is the RDF Schema for the RDF vocabulary terms in the RDF Namespace, defined in RDF 1.1 Concepts.</dc:description>
+    <dc:title>The RDF Concepts Vocabulary (RDF)</dc:title>
+  </owl:Ontology>
+  <rdfs:Class rdf:about="&rdf;Alt">
+    <rdfs:comment>The class of containers of alternatives.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>Alt</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Container" />
+  </rdfs:Class>
+  <rdfs:Class rdf:about="&rdf;Bag">
+    <rdfs:comment>The class of unordered containers.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>Bag</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Container" />
+  </rdfs:Class>
+  <rdfs:Datatype rdf:about="&rdf;HTML">
+    <rdfs:comment>The datatype of RDF literals storing fragments of HTML content</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>HTML</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/rdf11-concepts/#section-html" />
+    <rdfs:subClassOf rdf:resource="&rdfs;Literal" />
+  </rdfs:Datatype>
+  <rdfs:Class rdf:about="&rdf;List">
+    <rdfs:comment>The class of RDF Lists.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>List</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Resource" />
+  </rdfs:Class>
+  <rdfs:Datatype rdf:about="&rdf;PlainLiteral">
+    <rdfs:comment>The class of plain (i.e. untyped) literal values, as used in RIF and OWL 2</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>PlainLiteral</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/rdf-plain-literal/" />
+    <rdfs:subClassOf rdf:resource="&rdfs;Literal" />
+  </rdfs:Datatype>
+  <rdfs:Class rdf:about="&rdf;Property">
+    <rdfs:comment>The class of RDF properties.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>Property</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Resource" />
+  </rdfs:Class>
+  <rdfs:Class rdf:about="&rdf;Seq">
+    <rdfs:comment>The class of ordered containers.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>Seq</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Container" />
+  </rdfs:Class>
+  <rdfs:Class rdf:about="&rdf;Statement">
+    <rdfs:comment>The class of RDF statements.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>Statement</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Resource" />
+  </rdfs:Class>
+  <rdfs:Datatype rdf:about="&rdf;XMLLiteral">
+    <rdfs:comment>The datatype of XML literal values.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>XMLLiteral</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Literal" />
+  </rdfs:Datatype>
+  <rdf:Property rdf:about="&rdf;first">
+    <rdfs:comment>The first item in the subject RDF list.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdf;List" />
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>first</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Resource" />
+  </rdf:Property>
+  <rdfs:Datatype rdf:about="&rdf;langString">
+    <rdfs:comment>The datatype of language-tagged string values</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>langString</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/TR/rdf11-concepts/#section-Graph-Literal" />
+    <rdfs:subClassOf rdf:resource="&rdfs;Literal" />
+  </rdfs:Datatype>
+  <rdf:List rdf:about="&rdf;nil">
+    <rdfs:comment>The empty list, with no items in it. If the rest of a list is nil then the list has no more items in it.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>nil</rdfs:label>
+  </rdf:List>
+  <rdf:Property rdf:about="&rdf;object">
+    <rdfs:comment>The object of the subject RDF statement.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdf;Statement" />
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>object</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Resource" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdf;predicate">
+    <rdfs:comment>The predicate of the subject RDF statement.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdf;Statement" />
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>predicate</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Resource" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdf;rest">
+    <rdfs:comment>The rest of the subject RDF list after the first item.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdf;List" />
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>rest</rdfs:label>
+    <rdfs:range rdf:resource="&rdf;List" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdf;subject">
+    <rdfs:comment>The subject of the subject RDF statement.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdf;Statement" />
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>subject</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Resource" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdf;type">
+    <rdfs:comment>The subject is an instance of a class.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdfs;Resource" />
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>type</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Class" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdf;value">
+    <rdfs:comment>Idiomatic property used for structured values.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdfs;Resource" />
+    <rdfs:isDefinedBy rdf:resource="&rdf;" />
+    <rdfs:label>value</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Resource" />
+  </rdf:Property>
+  <owl:Ontology rdf:about="&rdfs;">
+    <dc:title>The RDF Schema vocabulary (RDFS)</dc:title>
+    <rdfs:seeAlso rdf:resource="http://www.w3.org/2000/01/rdf-schema-more" />
+  </owl:Ontology>
+  <rdfs:Class rdf:about="&rdfs;Class">
+    <rdfs:comment>The class of classes.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>Class</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Resource" />
+  </rdfs:Class>
+  <rdfs:Class rdf:about="&rdfs;Container">
+    <rdfs:comment>The class of RDF containers.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>Container</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Resource" />
+  </rdfs:Class>
+  <rdfs:Class rdf:about="&rdfs;ContainerMembershipProperty">
+    <rdfs:comment>The class of container membership properties, rdf:_1, rdf:_2, ...,
+                    all of which are sub-properties of 'member'.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>ContainerMembershipProperty</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdf;Property" />
+  </rdfs:Class>
+  <rdfs:Class rdf:about="&rdfs;Datatype">
+    <rdfs:comment>The class of RDF datatypes.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>Datatype</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Class" />
+  </rdfs:Class>
+  <rdfs:Class rdf:about="&rdfs;Literal">
+    <rdfs:comment>The class of literal values, eg. textual strings and integers.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>Literal</rdfs:label>
+    <rdfs:subClassOf rdf:resource="&rdfs;Resource" />
+  </rdfs:Class>
+  <rdfs:Class rdf:about="&rdfs;Resource">
+    <rdfs:comment>The class resource, everything.</rdfs:comment>
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>Resource</rdfs:label>
+  </rdfs:Class>
+  <rdf:Property rdf:about="&rdfs;comment">
+    <rdfs:comment>A description of the subject resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdfs;Resource" />
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>comment</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Literal" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdfs;domain">
+    <rdfs:comment>A domain of the subject property.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdf;Property" />
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>domain</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Class" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdfs;isDefinedBy">
+    <rdfs:comment>The defininition of the subject resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdfs;Resource" />
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>isDefinedBy</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Resource" />
+    <rdfs:subPropertyOf rdf:resource="&rdfs;seeAlso" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdfs;label">
+    <rdfs:comment>A human-readable name for the subject.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdfs;Resource" />
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>label</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Literal" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdfs;member">
+    <rdfs:comment>A member of the subject resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdfs;Resource" />
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>member</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Resource" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdfs;range">
+    <rdfs:comment>A range of the subject property.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdf;Property" />
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>range</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Class" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdfs;seeAlso">
+    <rdfs:comment>Further information about the subject resource.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdfs;Resource" />
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>seeAlso</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Resource" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdfs;subClassOf">
+    <rdfs:comment>The subject is a subclass of a class.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdfs;Class" />
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>subClassOf</rdfs:label>
+    <rdfs:range rdf:resource="&rdfs;Class" />
+  </rdf:Property>
+  <rdf:Property rdf:about="&rdfs;subPropertyOf">
+    <rdfs:comment>The subject is a subproperty of a property.</rdfs:comment>
+    <rdfs:domain rdf:resource="&rdf;Property" />
+    <rdfs:isDefinedBy rdf:resource="&rdfs;" />
+    <rdfs:label>subPropertyOf</rdfs:label>
+    <rdfs:range rdf:resource="&rdf;Property" />
+  </rdf:Property>
 </rdf:RDF>
-
-
-
-<!-- Generated by the OWL API (version 4.5.6.2018-09-06T00:27:41Z) https://github.com/owlcs/owlapi -->
-
